@@ -1,0 +1,152 @@
+html, body {
+    background-image: url('./img/tightest-circuit-on-the-calendar.avif');
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f1_logo {
+    margin: 10px;
+    width: 300px;
+    padding-top: 5%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f0f0f0;
+    font-size: medium;
+    align-items: baseline;
+}
+
+h1 {
+    color: #ff0000;
+    background-color: aliceblue;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
+    animation-name: slide;
+}
+
+h2 {
+    color: #f0f0f0;
+    align-items: center;
+    display: block;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #f0f0f0;
+    align-content: center;
+    justify-content: center;
+}
+
+h3:hover {
+    color: #ff0000;
+}
+
+.home {
+    text-align: center;
+    background-color: black;
+    color: #f0f0f0;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 7px red;
+    margin: 0;
+    padding: 20px;
+}
+
+span {
+    color: #ff0000;
+}
+
+.driver-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Checo,
+.Hamilton,
+.Leclerc {
+    width: 250px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+button {
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 50px;
+    background-color: rgb(16, 16, 17);
+    opacity: 80%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top3 {
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+}
+
+.black-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .f1_logo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .Checo,
+    .Hamilton,
+    .Leclerc {
+        width: 150px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
